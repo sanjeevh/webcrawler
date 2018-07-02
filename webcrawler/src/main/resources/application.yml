@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: default
+  application:
+    name: webcrawler
+
+sshd :
+  shell :
+    enabled : true
