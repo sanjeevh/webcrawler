@@ -16,6 +16,7 @@ use the REST endpoint - http://localhost:8080/crawl?url=https://www.onepagelove.
 A more complex and capable Scrapper can be implemented and configured to be used with the same crawler.
 The application can be enhanced to support Robot.txt and meta tags.
 code quality/readability can be enhanced with mode inline comments and elaborated logging using logging framework.
+Also, as future extension , an async model of trigerring web crawling would be a better choice since crawling can be time consuming process. an async API would acknowledge a crawling request and trigger crawling in background as a batch job and will return a pointer ( e.g. a REST resource ID ) which the called can later access to download the generated sitemap.
 
 
 
